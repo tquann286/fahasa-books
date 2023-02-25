@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { useMemo } from 'react'
 import { persistReducer, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from 'redux-persist'
+import { DEBUG } from '@/constants'
 
 import rootReducer from '@/store/reducers'
 
@@ -18,7 +19,7 @@ const createStore = (preloadedState, middleware) => {
     reducer: persistedReducer,
     preloadedState,
     middleware,
-    devTools: process.env.NODE_ENV !== 'production',
+    devTools: DEBUG,
   })
 
   return store
