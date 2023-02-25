@@ -1,0 +1,4 @@
+next.config.js
+public/*.js
+tailwind.config.js
+storybook-static
