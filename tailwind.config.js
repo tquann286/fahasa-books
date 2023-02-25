@@ -15,6 +15,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        primary: 'var(--primary)',
         black: 'var(--black)',
         red: 'var(--red)',
       },

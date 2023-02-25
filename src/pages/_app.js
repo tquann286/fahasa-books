@@ -32,11 +32,12 @@ const App = ({ Component, pageProps }) => {
 
   const Layout = Component.Layout || Noop
   const router = useRouter()
+  console.log('router: ', router)
 
   useDidMount(() => setSafeHydration(true))
 
   return (
-    <AppProviders locale={router.locale} pageProps={pageProps}>
+    <AppProviders locale={router?.locale} pageProps={pageProps}>
       {safeHydration && (
         <Layout pageProps={pageProps}>
           <Component {...pageProps} />
