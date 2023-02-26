@@ -32,7 +32,6 @@ const App = ({ Component, pageProps }) => {
 
   const Layout = Component.Layout || Noop
   const router = useRouter()
-  console.log('router: ', router)
 
   useDidMount(() => setSafeHydration(true))
 

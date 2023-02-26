@@ -1,4 +1,5 @@
-/** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   mode: 'jit',
   content: [
@@ -9,15 +10,63 @@ module.exports = {
     './src/providers/**/*.{js,ts,jsx,tsx}',
     './src/layouts/**/*.{js,ts,jsx,tsx}',
   ],
+  safelist: ['outline-none'],
   future: {
     hoverOnlyWhenSupported: true,
   },
   theme: {
+    screens: {
+      xs: '0px',
+      ...defaultTheme.screens,
+    },
     extend: {
       colors: {
+        blue: {
+          50: '#f4f6f9',
+          100: '#e8ecf4',
+          200: '#c6d0e3',
+          300: '#a4b4d2',
+          400: '#607bb0',
+          500: '#1c438e',
+          600: '#193c80',
+          700: '#15326b',
+          800: '#112855',
+          900: '#0e2146',
+          DEFAULT: 'var(--blue)',
+        },
         primary: 'var(--primary)',
         black: 'var(--black)',
         red: 'var(--red)',
+
+        white: 'var(--white)',
+        gray: 'var(--gray)',
+        pink: 'var(--pink)',
+        green: 'var(--green)',
+        yellow: 'var(--yellow)',
+        purple: 'var(--purple)',
+        'dark-gray': 'var(--dark-gray)',
+        'light-gray': 'var(--light-gray)',
+        'light-white': 'var(--light-white)',
+        'light-green': 'var(--light-green)',
+        'dark-green': 'var(--dark-green)',
+        'light-black': 'var(--light-black)',
+        'white-blue': 'var(--white-blue)',
+        'link-blue': 'var(--link-blue)',
+        'sub-blue': 'var(--sub-blue)',
+        'light-blue': 'var(--light-blue)',
+        'super-light-blue': 'var(--super-light-blue)',
+        'blue-bg': 'var(--blue-bg)',
+        'light-red': 'var(--light-red)',
+        'sub-orange': 'var(--sub-orange)',
+        'light-primary': 'var(--light-primary)',
+
+        theme: 'var(--theme)',
+        theme_hover: 'var(--theme-hover)',
+        theme_active: 'var(--theme-active)',
+        theme_light_orange: 'var(--theme_light_orange)',
+        theme_orange: 'var(--theme_orange)',
+        theme_blue: 'var(--theme_blue)',
+        theme_red: 'var(--theme_red)',
       },
     },
   },

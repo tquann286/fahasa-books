@@ -1,9 +1,13 @@
-import { useTranslations } from 'use-intl'
+import { Button } from '@/components/base'
 
 const HomeView = () => {
-  const t = useTranslations()
-
-  return <div>{t('navigations.book_list')}</div>
+  return (
+    <div>
+      <div className="flex">
+        <Button>Hello</Button>
+      </div>
+    </div>
+  )
 }
 
 export default HomeView
