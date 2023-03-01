@@ -69,6 +69,11 @@ module.exports = {
         theme_red: 'var(--theme_red)',
       },
     },
+    boxShadow: {
+      base: '0px 4px 10px 4px var(--box-shadow)',
+      lite: '0px 4px 10px var(--box-shadow-lite)',
+      table: '0px 4px 10px 4px var(--box-shadow-table)',
+    },
   },
   plugins: [],
 }

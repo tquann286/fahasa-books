@@ -10,6 +10,7 @@
     "format": "prettier --write \"**/*.{js,ts,tsx,md}\""
   },
   "dependencies": {
+    "@ant-design/icons": "^5.0.1",
     "@badrap/bar-of-progress": "^0.2.2",
     "@heroicons/react": "^2.0.16",
     "@react-aria/button": "^3.7.0",
