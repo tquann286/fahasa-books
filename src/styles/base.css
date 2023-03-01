@@ -33,7 +33,10 @@
     --secondary: var(--orange);
     --purple: #796baf;
 
-    --box-shadow: 0px 4px 7px rgba(28, 67, 142, 0.16);
+    --box-shadow: rgba(85, 155, 235, 0.2);
+    --box-shadow-lite: rgba(0, 0, 0, 0.07);
+    --box-shadow-table: rgba(85, 155, 235, 0.2);
+
     --focus-primary-shadow: 0 0 0 2px rgb(1 30 55 / 24%);
     --focus-danger-shadow: 0 0 0 2px rgb(255 38 5 / 24%);
     --drop-shadow: 0px 4px 7px rgba(28, 67, 142, 0.16);
@@ -44,9 +47,9 @@
     --w-screen: 1180px;
     --space-x-screen: 48px;
 
-    --theme: #34231f;
+    --theme: var(--primary);
     --theme-hover: #7690c0;
-    --theme-active: #1c438e;
+    --theme-active: var(--secondary);
     --theme_blue: #1c83fc;
     --theme_light_orange: #fff3eb;
     --theme_orange: #ff9201;

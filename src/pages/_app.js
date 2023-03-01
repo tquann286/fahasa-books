@@ -1,5 +1,7 @@
 import '@/styles/globals.css'
 import '@/styles/bar-of-progress.css'
+import '@/styles/antd/theme.css'
+import '@/styles/antd/antd-vars-theme.css'
 
 import ProgressBar from '@badrap/bar-of-progress'
 import { useState } from 'react'

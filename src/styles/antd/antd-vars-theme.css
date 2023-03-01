@@ -1,0 +1,80 @@
+.ant-menu-inline.ant-menu-root .ant-menu-item,
+.ant-menu-inline.ant-menu-root .ant-menu-submenu-title {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.ant-tabs.ant-tabs-centered > .ant-tabs-nav,
+.ant-tabs.ant-tabs-centered > div > .ant-tabs-nav {
+  margin-bottom: 16px;
+}
+
+.ant-tabs {
+  padding: 0 16px 16px;
+}
+
+.ant-tabs-bottom > .ant-tabs-nav,
+.ant-tabs-bottom > div > .ant-tabs-nav,
+.ant-tabs-top.ant-tabs-card > .ant-tabs-nav,
+.ant-tabs-top.ant-tabs-card > div > .ant-tabs-nav {
+  margin: 0;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  @apply shadow-base;
+}
+
+/* tabs */
+.ant-tabs > .ant-tabs-nav,
+.ant-tabs > div > .ant-tabs-nav {
+  @apply my-0 mx-6;
+}
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab,
+.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab {
+  @apply ml-1.5 rounded-tl-md bg-white text-base font-semibold leading-6 text-gray shadow-base;
+}
+.ant-tabs-nav-list .ant-tabs-tab-active .ant-tabs-tab-btn {
+  @apply font-semibold text-theme_active;
+}
+.ant-tabs-nav::before {
+  @apply hidden;
+}
+.ant-tabs-nav-list .ant-tabs-tab {
+  @apply p-0 text-lg font-bold text-gray;
+}
+.ant-tabs-content {
+  height: 100%;
+}
+
+/* label */
+form[id='user_update'] .ant-form-item-label > label {
+  @apply min-w-[200px];
+}
+
+/* layout */
+.app-content {
+  min-height: calc(100vh - 70px);
+  padding-bottom: 0;
+}
+.ant-layout-content {
+  min-height: calc(100% - 85px);
+}
+.ant-menu-inline .ant-menu-submenu,
+.ant-menu-vertical .ant-menu-submenu,
+.ant-menu-vertical-left .ant-menu-submenu,
+.ant-menu-vertical-right .ant-menu-submenu {
+  margin-bottom: -16px;
+}
+.ant-menu-sub.ant-menu-inline > .ant-menu-item,
+.ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+  margin-top: 0;
+}
+
+/* input  */
+textarea.ant-input,
+textarea.ant-input-affix-wrapper,
+textarea.ant-input-number,
+textarea.ant-mentions,
+textarea.ant-picker-input > input {
+  min-height: 120px;
+}
