@@ -17,10 +17,7 @@ const AppsLayout = ({ children }) => {
 
       <div className="m-0 min-h-screen bg-white p-0">
         <AppHeader />
-        <div
-          style={{ paddingTop: 'var(--h-header)' }}
-          className="mx-auto flex max-w-screen-xl gap-[var(--space-x-screen)]"
-        >
+        <div style={{ paddingTop: 'var(--h-header)' }} className="mx-auto flex">
           <AppSideBar />
           <main
             className={cn(
