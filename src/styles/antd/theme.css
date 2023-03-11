@@ -16554,7 +16554,7 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-menu-item-selected a:hover,
 .ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow,
 .ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-expand-icon {
-  color: var(--theme-active);
+  color: var(--secondary);
 }
 .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
   background-color: transparent;
