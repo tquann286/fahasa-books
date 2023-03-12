@@ -1,4 +1,4 @@
-export const ROUTE_PATH = {
+export default {
   BOOK: {
     LIST: '/book',
   },

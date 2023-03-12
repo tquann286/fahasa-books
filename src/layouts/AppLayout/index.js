@@ -1,12 +1,12 @@
-import cn from 'classnames'
 import Head from 'next/head'
 
-import ErrorBoundary from '@/components/base/ErrorBoundary'
-
+import { Layout } from 'antd'
+import { SIDE_NAV_WIDTH } from '@/constants'
 import AppFooter from './Components/AppFooter'
 import AppHeader from './Components/AppHeader'
 import AppSideBar from './Components/AppSideBar'
 
+const { Content } = Layout
 const AppsLayout = ({ children }) => {
   return (
     <>
@@ -17,18 +17,15 @@ const AppsLayout = ({ children }) => {
 
       <div className="m-0 min-h-screen bg-white p-0">
         <AppHeader />
-        <div style={{ paddingTop: 'var(--h-header)' }} className="mx-auto flex">
+        <div className="mx-auto flex">
           <AppSideBar />
-          <main
-            className={cn(
-              'max-w-[calc(var(--w-screen)-var(--w-sidebar)-var(--space-x-screen))]',
-              'min-h-[calc(100vh-70px-240px)] w-full flex-1 pt-7'
-            )}
-          >
-            <ErrorBoundary>{children}</ErrorBoundary>
-          </main>
+          <Layout style={{ paddingLeft: SIDE_NAV_WIDTH }} className="app-layout">
+            <div className="app-content">
+              <Content>{children}</Content>
+              <AppFooter />
+            </div>
+          </Layout>
         </div>
-        <AppFooter />
       </div>
     </>
   )

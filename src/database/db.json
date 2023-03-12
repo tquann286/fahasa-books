@@ -1,0 +1,268 @@
+{
+  "book": [
+    {
+      "id": "422226",
+      "product_name": "Phương Pháp \"Đào Tạo\" Nữ Chính Nhạt Nhòa - Bản Giới Hạn - Tặng Kèm Gameplay Card + Poster",
+      "product_finalprice": "270.000",
+      "product_price": "270.000",
+      "soon_release": "1",
+      "product_url": "https://www.fahasa.com/phuong-phap-dao-tao-nu-chinh-nhat-nhoa-ban-gioi-han-tang-kem-gameplay-card-poster.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/z/4/z4167921834303_05362853971057c22e6d69dfe0b33796.jpg",
+      "discount": 0,
+      "episode": null
+    },
+    {
+      "id": "414626",
+      "product_name": "Ghi Chép Pháp Y - Những Cái Chết Bí Ẩn",
+      "product_finalprice": "105.000",
+      "product_price": "150.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/ghi-chep-phap-y-nhung-cai-chet-bi-an.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/b/_/b_a-tr_c---ph_p-y-600.jpg",
+      "discount": 30,
+      "episode": null
+    },
+    {
+      "id": "420954",
+      "product_name": "Chú Thuật Hồi Chiến - Tập 10 - Bản Giới Hạn - Tặng Kèm Bọc Bảo Vệ Sách",
+      "product_finalprice": "65.000",
+      "product_price": "65.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/chu-thuat-hoi-chien-tap-10-ban-gioi-han-tang-kem-boc-bao-ve-sach.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/c/h/chu-thuat-hoi-chien---tap-10---limited-edition---mockup.jpg",
+      "discount": 0,
+      "episode": "Tập 10"
+    },
+    {
+      "id": "420960",
+      "product_name": "Hiểu Về Trái Tim (Tái Bản 2023)",
+      "product_finalprice": "134.300",
+      "product_price": "158.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/hieu-ve-trai-tim-tai-ban-2023.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/z/4/z4118763446785_cf4bc22d353b065bbb37e686de1f9207.jpg",
+      "discount": 15,
+      "episode": null
+    },
+    {
+      "id": "394791",
+      "product_name": "Đắc Nhân Tâm (Khổ Nhỏ) (Tái bản 2022)",
+      "product_finalprice": "47.600",
+      "product_price": "68.000",
+      "soon_release": null,
+      "product_url": "https://www.fahasa.com/dac-nhan-tam-kho-nho-tai-ban-2022.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935086855546.jpg",
+      "discount": 30,
+      "episode": null
+    },
+    {
+      "id": "421423",
+      "product_name": "Yu-Gi-Oh! GX - Tập 6: Kaiser Ryo!! - Tặng Kèm Bookmark PVC",
+      "product_finalprice": "30.000",
+      "product_price": "30.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/yu-gi-oh-gx-tap-6-kaiser-ryo-tang-kem-bookmark-pvc.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/y/u/yu-gi-oh-gx---tap-6-dd.jpg",
+      "discount": 0,
+      "episode": "Tập 6"
+    },
+    {
+      "id": "349270",
+      "product_name": "Thiên Tài Bên Trái, Kẻ Điên Bên Phải (Tái Bản 2021)",
+      "product_finalprice": "125.300",
+      "product_price": "179.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/thien-tai-ben-trai-ke-dien-ben-phai-tai-ban-2021.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/b/_/b_a-thi_n-t_i-b_n-tr_i-k_-_i_n-b_n-ph_i_1.jpg",
+      "discount": 30,
+      "episode": null
+    },
+    {
+      "id": "231611",
+      "product_name": "Đời Ngắn Đừng Ngủ Dài (Tái Bản 2018)",
+      "product_finalprice": "56.250",
+      "product_price": "75.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/doi-ngan-dung-ngu-dai-tai-ban-2018.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_180164_1_43_1_57_1_4_1_2_1_210_1_29_1_98_1_25_1_21_1_5_1_3_1_18_1_18_1_45_1_26_1_32_1_14_1_2730.jpg",
+      "discount": 25,
+      "episode": null
+    },
+    {
+      "id": "421421",
+      "product_name": "Lớp Học Rùng Rợn - Tập 10",
+      "product_finalprice": "30.000",
+      "product_price": "30.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/lop-hoc-rung-ron-tap-10.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/l/o/lop-hoc-rung-ron---tap-10-dd.jpg",
+      "discount": 0,
+      "episode": "Tập 10"
+    },
+    {
+      "id": "420909",
+      "product_name": "Nhóc Miko! Cô Bé Nhí Nhảnh - Tập 36",
+      "product_finalprice": "25.000",
+      "product_price": "25.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/nhoc-miko-co-be-nhi-nhanh-tap-36.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/n/x/nxbtre_full_14562023_025606.jpg",
+      "discount": 0,
+      "episode": "Tập 36"
+    },
+    {
+      "id": "422507",
+      "product_name": "Người Bà Tài Giỏi Vùng Saga - Tập 10",
+      "product_finalprice": "44.200",
+      "product_price": "52.000",
+      "soon_release": "1",
+      "product_url": "https://www.fahasa.com/nguoi-ba-tai-gioi-vung-saga-tap-10.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/n/b/nbtgvst10.jpg",
+      "discount": 15,
+      "episode": "Tập 10"
+    },
+    {
+      "id": "401026",
+      "product_name": "Vị Thần Của Những Quyết Định - The Book Of Answers - Bản Bìa Đen",
+      "product_finalprice": "55.300",
+      "product_price": "79.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/vi-than-cua-nhung-quyet-dinh-the-book-of-answers-ban-bia-den.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/n/h/nh_ng-quy_t-_nh-_2-phi_n-b_n-b_a_b_a-1_-b_n-_en.jpg",
+      "discount": 30,
+      "episode": null
+    },
+    {
+      "id": "419799",
+      "product_name": "Alice In Borderland - Tập 3 - Tặng Kèm Card Giấy",
+      "product_finalprice": "35.000",
+      "product_price": "35.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/alice-in-borderland-tap-3-tang-kem-card-giay.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/n/x/nxbtre_full_30552023_045547.jpg",
+      "discount": 0,
+      "episode": "Tập 3"
+    },
+    {
+      "id": "421171",
+      "product_name": "One-Punch Man - Tập 23: Thật - Giả - Tặng Kèm Bookmark PVC Saitama",
+      "product_finalprice": "25.000",
+      "product_price": "25.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/one-punch-man-tap-23-that-gia-tang-kem-bookmark-pvc-saitama.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/o/n/one-punch-man---tap-23---that---gia.jpg",
+      "discount": 0,
+      "episode": "Tập 23"
+    },
+    {
+      "id": "370678",
+      "product_name": "Đắc Nhân Tâm (Tái Bản 2021)",
+      "product_finalprice": "60.200",
+      "product_price": "86.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/dac-nhan-tam-tai-ban-2021.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/d/n/dntttttuntitled.jpg",
+      "discount": 30,
+      "episode": null
+    },
+    {
+      "id": "420284",
+      "product_name": "\"Cậu\" Ma Nhà Xí Hanako - Tập 15 - Special Edition - Tặng Kèm Hộp 2 Móc Khóa Acrylic",
+      "product_finalprice": "150.000",
+      "product_price": "150.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/cau-ma-nha-xi-hanako-tap-15-special-edition-tang-kem-hop-2-moc-khoa-acrylic.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/c/a/cau-ma-nha-xi-hanako---tap-15---ban-dac-biet.jpg",
+      "discount": 0,
+      "episode": "Tập 15"
+    },
+    {
+      "id": "371714",
+      "product_name": "Tuổi Trẻ Đáng Giá Bao Nhiêu (Tái Bản 2021)",
+      "product_finalprice": "63.000",
+      "product_price": "90.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/tuoi-tre-dang-gia-bao-nhieu-tai-ban-2021.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_239651.jpg",
+      "discount": 30,
+      "episode": null
+    },
+    {
+      "id": "420905",
+      "product_name": "Black Jack - Tập 17 - Tặng Kèm Bookmark Giấy",
+      "product_finalprice": "30.000",
+      "product_price": "30.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/black-jack-tap-17-tang-kem-bookmark-giay.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/n/x/nxbtre_full_14552023_025520.jpg",
+      "discount": 0,
+      "episode": "Tập 17"
+    },
+    {
+      "id": "411857",
+      "product_name": "Luật Tâm Thức - Giải Mã Ma Trận Vũ Trụ (Tái Bản 2022)",
+      "product_finalprice": "224.840",
+      "product_price": "292.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/luat-tam-thuc-giai-ma-ma-tran-vu-tru-tai-ban-2022.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/b/i/bia_luattamthuc_bia-1.jpg",
+      "discount": 23,
+      "episode": null
+    },
+    {
+      "id": "412453",
+      "product_name": "Thuật Thao Túng - Góc Tối Ẩn Sau Mỗi Câu Nói",
+      "product_finalprice": "97.300",
+      "product_price": "139.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/thuat-thao-tung-goc-toi-an-sau-moi-cau-noi.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/u/n/untitledthaotungtamly.jpg",
+      "discount": 30,
+      "episode": null
+    },
+    {
+      "id": "421635",
+      "product_name": "Nhất Quỷ Nhì Ma, Thứ Ba (Vẫn Là) Takagi - Tập 12 - Tặng Kèm Postcard",
+      "product_finalprice": "30.000",
+      "product_price": "30.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/nhat-quy-nhi-ma-thu-ba-van-la-takagi-tap-12-tang-kem-postcard.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/n/q/nqnmtbvltt12.jpg",
+      "discount": 0,
+      "episode": "Tập 12"
+    },
+    {
+      "id": "420907",
+      "product_name": "Blue Period - Tập 11 - Tặng Kèm Bookmark Giấy In Hai Mặt",
+      "product_finalprice": "48.000",
+      "product_price": "48.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/blue-period-tap-11-tang-kem-bookmark-giay.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/n/x/nxbtre_full_15402023_024049.jpg",
+      "discount": 0,
+      "episode": "Tập 11"
+    },
+    {
+      "id": "422495",
+      "product_name": "One-Punch Man - Tập 24: Vật Tế - Tặng Kèm Card PVC",
+      "product_finalprice": "25.000",
+      "product_price": "25.000",
+      "soon_release": "1",
+      "product_url": "https://www.fahasa.com/one-punch-man-tap-24-vat-te-tang-kem-card-pvc.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/o/n/one-punch-man---tap-24---vat-te.jpg",
+      "discount": 0,
+      "episode": "Tập 24"
+    },
+    {
+      "id": "383268",
+      "product_name": "Muôn Kiếp Nhân Sinh - Many Times, Many Lives - Tập 2 (Bìa Cứng - Khổ Lớn)",
+      "product_finalprice": "236.600",
+      "product_price": "338.000",
+      "soon_release": "0",
+      "product_url": "https://www.fahasa.com/muon-kiep-nhan-sinh-many-times-many-lives-tap-2-bia-cung-kho-lon.html",
+      "image_src": "https://cdn0.fahasa.com/media/catalog/product/m/d/mduonkiepnhansinh2-biaao_338k_bia01.jpg",
+      "discount": 30,
+      "episode": "Tập 2"
+    }
+  ]
+}

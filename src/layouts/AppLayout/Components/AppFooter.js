@@ -1,7 +1,7 @@
 import React from 'react'
 
 const AppFooter = () => {
-  return <div>AppFooter</div>
+  return <div />
 }
 
 export default AppFooter

@@ -1,4 +1,5 @@
 export * from './useDidMount'
 export * from './useDidUpdate'
+export * from './useFilter'
 export * from './useForceUpdate'
 export * from './useQueue'
