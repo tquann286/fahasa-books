@@ -1,0 +1,94 @@
+.button__clean {
+  & button {
+    @apply flex items-center justify-center gap-2;
+    &:hover {
+      @apply opacity-80;
+    }
+  }
+}
+
+.button__base {
+  & button {
+    @apply !m-0 flex items-center justify-center gap-2 rounded-md bg-transparent fill-theme !font-light text-theme opacity-20 shadow-none;
+    &:hover[disabled='true'],
+    &[disabled='true'] {
+      @apply bg-transparent fill-theme !font-light text-theme !opacity-20;
+    }
+    &[disabled='false'],
+    &:not(:disabled) {
+      @apply bg-transparent fill-theme !font-medium text-theme !opacity-100;
+      &:hover {
+        @apply bg-transparent fill-theme !font-bold text-theme !opacity-100;
+      }
+    }
+  }
+}
+
+.button__default {
+  & button {
+    @apply !text-theme_hover;
+    &:hover[disabled='false'],
+    &:not(disabled):hover {
+      @apply !text-theme_active;
+    }
+  }
+}
+
+.button__primary {
+  & button {
+    @apply !bg-theme_hover !text-white;
+    &:hover[disabled='false'],
+    &:not(disabled):hover {
+      @apply !bg-theme_active !text-white;
+    }
+  }
+}
+
+.button__success {
+  & button {
+    @apply !bg-primary !fill-white !text-white;
+    &:hover[disabled='false'],
+    &:not(disabled):hover {
+      /* @apply !font-bold; */
+    }
+  }
+}
+
+.button__danger {
+  & button {
+    @apply !bg-red !fill-white !text-white;
+    &:hover[disabled='false'],
+    &:not(disabled):hover {
+      /* @apply !font-bold; */
+    }
+  }
+}
+
+.button__warning {
+  & button {
+    @apply !bg-theme_orange !fill-white !text-white;
+    &:hover[disabled='false'],
+    &:not(disabled):hover {
+      /* @apply !font-bold; */
+    }
+  }
+}
+
+.button__text {
+  & button,
+  svg {
+    @apply bg-transparent fill-current text-current;
+    &:hover[disabled='false'],
+    &:not(disabled):hover {
+      /* @apply !bg-transparent !fill-theme_active !font-bold !text-theme_active; */
+    }
+  }
+}
+
+.button__round {
+  @apply rounded-full;
+  & button,
+  & svg {
+    @apply rounded-full;
+  }
+}
