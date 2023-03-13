@@ -1,5 +1,3 @@
-export default {
-  BOOK: {
-    LIST: '/book',
-  },
-}
+export const TIMEOUT = 10000
+
+export default {}

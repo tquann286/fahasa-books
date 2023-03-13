@@ -1,4 +1,7 @@
-next.config.js
-public/*.js
+node_modules
+build
+src/theme/antd.css
 tailwind.config.js
-storybook-static
+prettier.config.js
+vite.config.js
+.eslintrc.js

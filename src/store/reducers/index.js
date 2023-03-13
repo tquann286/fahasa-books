@@ -1,6 +1,7 @@
-import { combineReducers } from 'redux'
-import config from './config'
+import { combineReducers } from '@reduxjs/toolkit'
+
+import { api } from '@/store/services/api'
 
 export default combineReducers({
-  config,
+  [api?.reducerPath]: api?.reducer,
 })

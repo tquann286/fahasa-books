@@ -10,6 +10,6 @@ module.exports = {
   jsxSingleQuote: false,
   bracketSpacing: true,
   bracketSameLine: false,
+  endOfLine: 'lf',
   tailwindConfig: './tailwind.config.js',
-  endOfLine: 'auto',
 }

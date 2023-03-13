@@ -1,0 +1,31 @@
+.main {
+  width: 368px;
+  margin: 0 auto;
+
+  & .icon {
+    margin-left: 16px;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  & .other {
+    margin-top: 24px;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  & :global {
+    & .antd-pro-login-submit {
+      width: 100%;
+      margin-top: 24px;
+    }
+  }
+}
+
+.pullRight {
+  width: 100%;
+  text-align: right;
+}

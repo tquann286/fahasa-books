@@ -5,7 +5,12 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
     'postcss-preset-env': {
-      features: { 'nesting-rules': false },
+      features: {
+        'nesting-rules': true,
+        'custom-properties': {
+          preserve: false,
+        },
+      },
     },
     ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {}),
   },

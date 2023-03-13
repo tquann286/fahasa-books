@@ -9,12 +9,9 @@ module.exports = {
     'airbnb',
     'airbnb/hooks',
     'eslint:recommended',
-    'plugin:@next/next/recommended',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
-    'next/core-web-vitals',
-    'plugin:prettier/recommended',
-    'plugin:storybook/recommended',
+    'plugin:prettier/recommended', // Make this the last element so prettier config overrides other formatting rules
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -27,70 +24,53 @@ module.exports = {
     react: {
       version: 'detect', // Automatically detect the react version
     },
-
     'import/resolver': {
       alias: {
         map: [['@', './src']],
       },
     },
   },
-  plugins: ['react', 'react-hooks', 'simple-import-sort'],
+  plugins: ['react', 'react-hooks', 'simple-import-sort', 'prettier'],
   rules: {
     'prettier/prettier': [
       'error',
-      {
-        endOfLine: 'auto',
-      },
+      {},
       {
         usePrettierrc: true,
+        endOfLine: 'auto',
       },
     ],
+
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'off',
+
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/forbid-prop-types': 'off',
     'react/require-default-props': 'off',
-    'react/jsx-filename-extension': [
-      1,
-      {
-        extensions: ['.js', '.jsx'],
-      },
-    ],
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/jsx-props-no-spreading': 'off',
+
     'import/prefer-default-export': 'off',
-    'import/no-cycle': [2, { ignoreExternal: true }],
     'import/extensions': 'off',
-    'jsx-a11y/click-events-have-key-events': 'warn',
-    'jsx-a11y/anchor-is-valid': [
-      'error',
-      {
-        components: ['Link'],
-        specialLink: ['hrefLeft', 'hrefRight'],
-        aspects: ['invalidHref', 'preferButton'],
-      },
-    ],
+
     'react/jsx-no-useless-fragment': [
       'warn',
       {
         allowExpressions: true,
       },
     ],
-    'import/no-dynamic-require': 'off',
-    'global-require': 'off',
-    '@next/next/no-img-element': 'off',
     'react/function-component-definition': 'off',
     'react/no-danger': 'warn',
     'no-underscore-dangle': 'off',
     'no-unused-vars': 'warn',
     'react/display-name': 'off',
-    'no-param-reassign': [
-      'warn',
-      {
-        props: false,
-      },
-    ],
-    'jsx-a11y/label-has-associated-control': 'off',
-    'import/no-anonymous-default-export': 'off',
+    'import/no-unresolved': 'off',
+    'no-param-reassign': ['warn', { props: false }],
+    'default-param-last': 'off',
+    'prefer-regex-literals': 'off',
+    semi: ['error', 'never'],
+    'react/no-unstable-nested-components': ['off', { allowAsProps: true }],
+    'react/destructuring-assignment': 'off',
   },
 }
